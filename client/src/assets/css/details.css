@@ -1,0 +1,154 @@
+/* .details-image-background {
+  background: url("https://images.unsplash.com/photo-1480563597043-1c877e682fc7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80");
+  position: relative;
+  width: 100%;
+  min-height: 300px;
+}
+.details-image {
+}
+.details-image-text {
+  position: absolute;
+  top: 200px;
+  left: 0;
+  width: 100%;
+}
+.details-image-text span {
+  color: white;
+  font: bold 24px/45px Helvetica, Sans-Serif;
+  letter-spacing: -1px;
+  background: rgb(0, 0, 0); /* fallback color */
+/* background: rgba(0, 0, 0, 0.7);
+  padding: 10px;
+}
+.left-image-detail {
+  display: flex;
+  color: white;
+} */
+.hero-image {
+  /* background: url("https://images.unsplash.com/photo-1480563597043-1c877e682fc7?ixlib=rb-1.2.1&auto=format&fit=crop&w=1050&q=80"); */
+  background-image: url("https://images.unsplash.com/photo-1552674605-db6ffd4facb5?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60");
+  background-color: #cccccc;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.hero-text {
+  text-align: left;
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.hero-register {
+  text-align: left;
+  position: absolute;
+  top: 50%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  color: white;
+  background-color: #14363d;
+}
+.desc {
+  width: 70%;
+  margin-left: 16%;
+}
+.description {
+  margin-left: 10%;
+  width: 30%;
+  text-align: left;
+}
+.description-text {
+  text-align: left;
+}
+.description-right {
+  width: 30%;
+  margin-left: 20%;
+  text-align: left;
+  display: flex;
+  flex-direction: column;
+}
+.Right-side {
+  margin-top: 5%;
+  display: flex;
+  flex-direction: row;
+  min-height: 500px;
+}
+.Right-side p {
+  font-size: 20px;
+}
+
+#app {
+}
+
+h1 {
+  text-align: center;
+}
+
+.container {
+  width: 600px;
+  margin: auto;
+}
+
+.grid td {
+  width: 80px;
+  height: 50px;
+  padding: 50px 30px;
+  border: 2px solid #14363d;
+  text-align: center;
+  float: left;
+  margin: 5px;
+}
+
+.grid td:hover {
+  opacity: 0.7;
+  cursor: pointer;
+}
+
+.reserved {
+  background: #14363d;
+  color: #fff;
+  display: inline-block;
+}
+
+.reserved::after {
+  content: "Reserved";
+  color: white;
+}
+
+.available::after {
+  content: "Available";
+}
+
+.available {
+  color: black;
+}
+
+li {
+  list-style: none;
+}
+.heading2 {
+  margin-top: 50px;
+}
+.reserved-seats {
+  margin-top: 10%;
+}
+#card-match-content {
+  padding: 1rem;
+  /* background-color: "#14363d"; */
+  color: white;
+  background-color: #14363d;
+}
+#card-match-content a {
+  color: white;
+}
+#card-match-content span {
+  color: white;
+}
+.booked-details {
+  font-size: 20px;
+}

@@ -1,0 +1,17 @@
+.home {
+  display: flex;
+  flex-direction: column;
+  min-height: 190px;
+  background-image: url("https://images.unsplash.com/photo-1559579313-021b6ec9f6d6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=751&q=80");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: black;
+  font-family: "Patua One", cursive;
+
+  /* color: rgb(250, 219, 219); */
+  /* opacity: 0.8; */
+}
+.home-text {
+  padding-top: 33px;
+}

@@ -1,0 +1,55 @@
+.top {
+  width: 100%;
+  max-height: 20%;
+  background-color: #14363d;
+  color: white;
+  display: flex;
+  font-family: "Patua One", cursive;
+}
+.logo {
+  width: 51px;
+  float: left;
+  margin-top: 13px;
+  margin-left: 110px;
+  border-radius: 26px;
+}
+.username {
+  padding-right: 1%;
+  float: right;
+  margin-left: 61%;
+  padding-top: 22px;
+}
+.avatar {
+  vertical-align: middle;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-top: 1%;
+}
+.logo-name {
+  /* font-family: cursive; */
+  font-size: 21px;
+  margin-top: 10px;
+  padding-top: 18px;
+  padding-left: 16px;
+}
+.logout {
+  width: 6%;
+  height: 28px;
+  border: none;
+  border-radius: 9px;
+  margin-top: 21px;
+
+  /* margin-left: 28px; */
+  color: white;
+  /* background-color: black; */
+}
+.acc {
+  margin-top: 12px;
+  margin-left: 24px;
+  max-width: 83px;
+  max-height: 41px;
+  color: black;
+  background-color: #fff;
+  border-radius: 10px;
+}
